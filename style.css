@@ -209,7 +209,7 @@ h2.text-home {
 }
 
 .home-img { /* IMG fundo home */
-    width: 60vh;
+    width: 65%;
     transition: all 0.8s ease;
 }
 
@@ -296,6 +296,7 @@ h2.text-home {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-top: 15%;
 }
 
 .cards {
@@ -364,104 +365,144 @@ h2.text-home {
     transform: scale(1.1);
 }
 
+.whatss{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    transition: all 0.7s ease;
+}
+.btnwhats{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #25d366;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.btnwhats:hover{
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+}
+
 
  
 @media screen and (max-width: 768px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: poppins, sans-serif;
     }
 
-    .main-content{
+    .main-content {
         overflow: hidden;
     }
 
-    body{
+    body {
         width: 100%;
     }
 
-    .logo{
+    .logo {
         width: 17%;
     }
 
-    .cart{
+    .cart {
         width: 15%;
-
-    }
-    .cart a{
-       margin-left: 8px;
     }
 
-    .title-home{
+    .cart a {
+        margin-left: 8px;
+    }
+
+    .title-home {
         margin-top: 90px;
         font-size: 20px;
     }
-    h1.title-home span{
-        font-size: 30px;  
+
+    h1.title-home span {
+        font-size: 30px;
     }
 
-    h2.subtitle-home{
+    h2.subtitle-home {
         font-size: 8px;
         margin-left: 20px;
     }
-   
-    nav.menu-lateral{
-        width: 20%;
-    }
 
-    h2.text-home{
+    h2.text-home {
         margin-top: 60px;
         font-size: 15px;
     }
 
-    .img-robo{
-        padding-top: 320px;
-    }
-    .home-img{
-        width: 40vh;
-        margin-left: -10px;
+    .container-fundo {
+        margin-top: 15%;
     }
 
-    .btn-expandir{
+    .img-robo {
+        padding-top: 350px;
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .home-img {
+        width: 28vh;
+        margin-left: 75px;
+        margin-top: 38%;
+    }
+
+    .btn-expandir {
         display: none;
     }
 
-    .icon{
+    .icon {
         margin-left: -15px;
-       
     }
-   
-    ul li.item-menu a .icon i{
+
+    ul li.item-menu a .icon i {
         font-size: 20px;
     }
 
-    nav.menu-lateral{
-        width: 50px;
+    nav.menu-lateral {
+        width: 53px;
     }
-    .container-card{
-       margin-top: 50%;
+
+    .container-card {
+        margin-top: 50%;
     }
-    .container-about{
-        padding-top: 40%;
+
+    .container-about {
+        padding-top: 50%;
     }
-    .container-about h1{
+
+    .container-about h1 {
         font-size: 20px;
     }
-    .container-about p{
-        font-size: 13px;
+
+    .container-about p {
+        font-size: 10px;
     }
-    .wrapper{
+
+    .wrapper {
         margin-left: 2rem;
         width: 80%;
     }
-   
+
+    .btnwhats{
+        font-size: 25px;
+        padding: 5px;
+        background-color: transparent;
+        color: #25d366;
+    }
+    .whatss{
+        bottom: 5px;
+        right: 5px;
+    }
 }
 
 @media (min-width: 576px) {
     .cards {
         flex-direction: row;
     }
-   
 }
