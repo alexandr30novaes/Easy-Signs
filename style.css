@@ -389,7 +389,7 @@ h2.text-home {
 
 
  
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     * {
         margin: 0;
         padding: 0;
@@ -419,11 +419,11 @@ h2.text-home {
 
     .title-home {
         margin-top: 90px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     h1.title-home span {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     h2.subtitle-home {
@@ -433,7 +433,7 @@ h2.text-home {
 
     h2.text-home {
         margin-top: 60px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .container-fundo {
@@ -477,7 +477,7 @@ h2.text-home {
     }
 
     .container-about h1 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .container-about p {
@@ -490,7 +490,7 @@ h2.text-home {
     }
 
     .btnwhats{
-        font-size: 25px;
+        font-size: 20px;
         padding: 5px;
         background-color: transparent;
         color: #25d366;
@@ -501,8 +501,17 @@ h2.text-home {
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .cards {
         flex-direction: row;
+    }
+    .container-about {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-about {
+        margin-top: 15%;
     }
 }
