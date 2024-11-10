@@ -57,16 +57,7 @@ nav.menu-lateral { /*Menu lateral start*/
     transition: all 0.80s;
 }
 
-.logo {
-    text-align: center;
-}
 
-.logo img {  
-    width: 18vh;
-    height: 100px;
-    cursor: pointer;
-    transition: all 2s ease;
-}
 
 nav.menu-lateral.expandir {
     width: 300px;
@@ -146,6 +137,7 @@ ul li.item-menu a .icon i {
     align-items: center;
     position: fixed;
     justify-content: flex-end;
+ 
 }
 
 .menu-home .cart {
@@ -168,19 +160,20 @@ ul li.item-menu a .icon i {
     font-size: 20px;
 }
 
-.logo {
-    text-align: center;
-    position: fixed;
-    left: 20px;
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-
-.logo img {  
-    width: 10vh;
-    height: 200px;
-    cursor: pointer;
-    transition: all 2s ease;
+.logo img{
+    width: 17vh;
+    border-radius: 40%;
+    transition: all 0.8s ease-in-out;
 }
-
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 0.8s ease;
+}
 /*menu home end*/
 
 .title-home {
