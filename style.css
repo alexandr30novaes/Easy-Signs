@@ -175,8 +175,8 @@ ul li.item-menu a .icon i {
 }
 
 .logo img {  
-    width: 150%;
-    height: 80px;
+    width: 10vh;
+    height: 200px;
     cursor: pointer;
     transition: all 2s ease;
 }
