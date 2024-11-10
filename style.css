@@ -164,11 +164,11 @@ ul li.item-menu a .icon i {
     position: absolute;
     top: 0;
     left: 0;
+    transition: all 0.8s ease;
 }
 .logo img{
     width: 17vh;
     border-radius: 40%;
-    transition: all 0.8s ease-in-out;
 }
 .logo:hover{
     transform: scale(1.1);
